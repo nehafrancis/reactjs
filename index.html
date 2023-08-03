@@ -4,19 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+<style>
+    body {
+          background-color: lightblue;
+        }
+        
+        h1 {
+          color: white;
+          text-align: center;
+        }
+        h2 {
+          color:blueviolet;
+          text-align:center;
+        }
+        h3 {
+          color:black;
+          text-align:center;
+        }
+        h4 {
+          color:brown;
+          text-align:center;
+        }
+        h5 {
+          color:azure;
+          text-align:center;
+        }
+        
+        p {
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: 20px;
+        }
+        .flex-container{
+            display:flex;
+            background-color:black;
+        }
+        .flex-container>div{
+            background-color:azure;
+            font-size: 30px;
+            margin:10px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns:auto auto auto
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: #2196F3;
+            
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    
+</style>
 </head>
 <body>
+    <div>
     <h1><b>Hi,hello</b></h1>
     <h2><i>Welcome</i></h2>
     <h3><i>Welcome</i></h3>
     <h4><i>Welcome</i></h4>
     <h5><i>Welcome</i></h5>
-    <p>Hello ,This is XYZ</p>
-    <ul>
+    <p><u>Hello ,This is XYZ</u></p>
+    </div>
+    <ul><div>
         <li>10th</li>
         <li>12th</li>
         <li>UG</li>
-    </ul>
+    </ul></div>
     <p><u>SEA ANIMALS</u></p>
     <ol  type="a">
         <li>Shark</li>
@@ -40,5 +101,35 @@
         <li>Snake</li>
         <li>Lizard</li>
         <li>Chameleon</li>
+    <p><u>PROFILE</u></p>
+    <img src="https://cdn.pixabay.com/photo/2019/12/03/22/22/dog-4671215_1280.jpg" width="650" height="500> 
+    
+    <h1>display: grid</h1>
+    
+
+
+
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div> 
+</div>   
+    <h2>display: flex</h1>
+
+<div class="flex-container">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+    <div class="flex-item">4</div>
+    <div class="flex-item">5</div> 
+    <div class="flex-item">hi</div>
+    <div class="flex-item">hello</div>   
+</div>
 </body>
 </html>
